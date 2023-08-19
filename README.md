@@ -8,7 +8,7 @@ This is a simple E-Commerce Product Page website built using HTML, Tailwind CSS,
 
 ## Live Site
 
-Check out the live site [here](https://job-l1stings.netlify.app/).
+Check out the live site [here](https://ecommerce-pr0duct-page.netlify.app/).
 
 ## Features
 
