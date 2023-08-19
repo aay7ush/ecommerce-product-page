@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  #add-to-cart-btn {
+    box-shadow: 0 7px 18px 2px hsla(26, 94%, 65%, 0.735);
+  }
+
+  .thumbnail:hover,
+  .thumbnail-2:hover {
+    @apply after:hover:content-[''] after:hover:w-full after:hover:h-full after:hover:top-0 after:hover:left-0 after:hover:absolute after:hover:bg-clr-pale-orange after:hover:bg-opacity-60;
+  }
+
+  .selected {
+    @apply after:rounded-xl after:border-2 after:border-clr-orange after:content-[''] after:w-full after:h-full after:top-0 after:left-0 after:absolute after:bg-clr-pale-orange after:bg-opacity-60;
+  }
+
+  #cart {
+    box-shadow: 5px 20px 50px -10px hsla(0, 2%, 66%, 0.694);
+  }
+}
